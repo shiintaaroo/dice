@@ -1,1 +1,11 @@
+import random
 
+while True:
+    input("Enterキーでサイコロを振ります...")
+
+    dice_6 = random.randint(1, 6)
+    dice_12 = random.randint(1, 12)
+
+    print(f"6面サイコロ: {dice_6}")
+    print(f"12面サイコロ: {dice_12}")
+    print()
